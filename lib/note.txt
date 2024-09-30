@@ -26,3 +26,5 @@ too plan for the flow easily to build the logic.).
         ),
       );
   }
+
+  -you can't use spacer widget in singlechildscrollview widget
