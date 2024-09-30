@@ -28,3 +28,4 @@ too plan for the flow easily to build the logic.).
   }
 
   -you can't use spacer widget in singlechildscrollview widget
+  - any widget's variables must be final (any widget called immutable that mean can't change so their constructor is const)
