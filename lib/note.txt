@@ -1,31 +1,36 @@
-- font aweasome icons package for cusotm icons 
-you can get any package easily by search in vscode
-- do ui firstly for (client if want see some result , this trick help you
-too plan for the flow easily to build the logic.).
--listview.builder deal with list so you must get the list of data ready if that from splight or api or firebase.
-- and it have built in for
--stack is not flex for ui
--if you use const ..use final or remove it and make stateful Widget
-- list view by default has padding and you can remove it by write in it padding : edgeinsets.zero,
--showmodelbottomsheet has shape to give it raduis border
--look at this :
-         Widget build(BuildContext context) {
-    return TextField(
-      decoration: InputDecoration(
-        border: buildborder(),
-        enabledBorder: buildborder(), 
-      ),
-    );
-  }
+Note app from tharwat course 
+       1- ui : - font aweasome icons package for cusotm icons 
+            you can get any package easily by search in vscode
+             - do ui firstly for (client if want see some result , this trick help you
+            too plan for the flow easily to build the logic.).
+            -listview.builder deal with list so you must get the list of data ready if that from splight or api or firebase.
+            - and it have built in for
+            -stack is not flex for ui
+            -if you use const ..use final or remove it and make stateful Widget
+            - list view by default has padding and you can remove it by write in it padding : edgeinsets.zero,
+            -showmodelbottomsheet has shape to give it raduis border
+             -look at this :
+                 Widget build(BuildContext context) {
+             return TextField(
+              decoration: InputDecoration(
+                  border: buildborder(),
+                 enabledBorder: buildborder(), 
+                 ),
+             );
+         }
 
-  OutlineInputBorder buildborder() {
-    return OutlineInputBorder(
-        borderRadius: BorderRadius.circular(8),
-        borderSide: const BorderSide(
-          color: Colors.white,
-        ),
-      );
-  }
+         OutlineInputBorder buildborder() {
+             return OutlineInputBorder(
+                 borderRadius: BorderRadius.circular(8),
+                 borderSide: const BorderSide(
+                color: Colors.white,
+                ),
+                 );
+            }
 
-  -you can't use spacer widget in singlechildscrollview widget
-  - any widget's variables must be final (any widget called immutable that mean can't change so their constructor is const)
+            -you can't use spacer widget in singlechildscrollview widget
+            - any widget's variables must be final (any widget called immutable that mean can't change so their constructor is const)
+
+
+       2- logic :
+            -
