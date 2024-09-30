@@ -1,1 +1,4 @@
- 
+- font aweasome icons package for cusotm icons 
+you can get any package easily by search in vscode
+- do ui firstly for (client if want see some result , this trick help you
+too plan for the flow easily to build the logic.).

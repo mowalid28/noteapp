@@ -12,7 +12,9 @@ class noteapp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(brightness: Brightness.dark),
+      theme: ThemeData(
+          brightness: Brightness.dark,
+          fontFamily: 'assets/fonts/Poppins-Regular.ttf'),
       home: SafeArea(
         child: Scaffold(
           body: notesView(),
