@@ -2,3 +2,6 @@
 you can get any package easily by search in vscode
 - do ui firstly for (client if want see some result , this trick help you
 too plan for the flow easily to build the logic.).
+-listview.builder deal with list so you must get the list of data ready if that from splight or api or firebase.
+- and it have built in for
+-stack is not flex for ui
