@@ -33,6 +33,37 @@ Note app from tharwat course
 
 
        2- logic :
-            -hive package for pure dart applications(projects) hive_flutter is a extenstion from it to deal with flutter 
+            - hive package for pure dart applications(projects) hive_flutter is a extenstion from it to deal with flutter 
             - build runner ==> way to make things easily for constant codes (called generate the code)
             - hive generate to generate hive code correctly.
+            - hive is noSQL Database. (store data in form ' key : value ' in box (equal collection in firebase),)
+            - store the value in just primitive data but if you want to store objects because this is best way and easily in work
+            - you just need to code your model .optional you can make your model extend from HiveObject to easy process
+            - 
+        import 'package:hive/hive.dart';
+
+part 'note_model.g.dart';
+
+//normal to be error becasue still not created yet
+//will generate this file adapter for this model must write name correctly
+@HiveType(typeId: 0)
+//for your model and all about 255
+//here place to generate
+class NoteModel extends HiveObject {
+  @HiveField(0)
+  //unique per class
+  final String title;
+  @HiveField(1)
+  final String subTitle;
+  @HiveField(2)
+  final String date;
+  @HiveField(3)
+  final int color;
+
+  NoteModel(
+      {required this.title,
+      required this.subTitle,
+      required this.date,
+      required this.color});
+}
+to start this write in terminal this line :  flutter packages pub run build_runner build
