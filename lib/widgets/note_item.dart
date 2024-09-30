@@ -7,7 +7,7 @@ class noteItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(bottom: 16.0),
+      padding: const EdgeInsets.only(bottom: 10.0),
       child: Container(
         padding: EdgeInsets.only(top: 16, bottom: 16, left: 12),
         width: double.infinity,
@@ -32,7 +32,7 @@ class noteItem extends StatelessWidget {
                   'this is the subtitel of noteayathis is the subtitel of noteaya',
                   style: TextStyle(
                     color: Colors.black.withOpacity(0.5),
-                    fontSize: 20,
+                    fontSize: 17,
                   ),
                 ),
               ),
