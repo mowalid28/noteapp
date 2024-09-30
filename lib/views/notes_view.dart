@@ -13,6 +13,8 @@ class notesView extends StatelessWidget {
         hoverColor: Colors.amber,
         onPressed: () {
           showModalBottomSheet(
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(16)),
               context: context,
               builder: (context) {
                 return const addNoteBottomSheet();

@@ -7,3 +7,4 @@ too plan for the flow easily to build the logic.).
 -stack is not flex for ui
 -if you use const ..use final or remove it and make stateful Widget
 - list view by default has padding and you can remove it by write in it padding : edgeinsets.zero,
+-showmodelbottomsheet has shape to give it raduis border
