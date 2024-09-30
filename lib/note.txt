@@ -33,4 +33,6 @@ Note app from tharwat course
 
 
        2- logic :
-            -
+            -hive package for pure dart applications(projects) hive_flutter is a extenstion from it to deal with flutter 
+            - build runner ==> way to make things easily for constant codes (called generate the code)
+            - hive generate to generate hive code correctly.
