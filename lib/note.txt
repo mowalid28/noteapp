@@ -67,3 +67,7 @@ class NoteModel extends HiveObject {
       required this.color});
 }
 to start this write in terminal this line :  flutter packages pub run build_runner build
+
+- stateless doesn't has variables : ==> can make variable live in bloc and still stateless.
+
+-input - validate - store in hive 
