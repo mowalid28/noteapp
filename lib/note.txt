@@ -71,3 +71,7 @@ to start this write in terminal this line :  flutter packages pub run build_runn
 - stateless doesn't has variables : ==> can make variable live in bloc and still stateless.
 
 -input - validate - store in hive 
+
+
+add Bloc statemangment to project :
+    1- single responsability ==> should be make cubit for every feature or small feature.
